@@ -1,0 +1,14 @@
+G:\net\PcBuild\BLL\bin\Debug\BLL.dll
+G:\net\PcBuild\BLL\bin\Debug\BLL.pdb
+G:\net\PcBuild\BLL\bin\Debug\AutoMapper.dll
+G:\net\PcBuild\BLL\bin\Debug\DAL.dll
+G:\net\PcBuild\BLL\bin\Debug\EntityFramework.dll
+G:\net\PcBuild\BLL\bin\Debug\DAL.pdb
+G:\net\PcBuild\BLL\bin\Debug\DAL.dll.config
+G:\net\PcBuild\BLL\bin\Debug\AutoMapper.xml
+G:\net\PcBuild\BLL\bin\Debug\EntityFramework.xml
+G:\net\PcBuild\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+G:\net\PcBuild\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+G:\net\PcBuild\BLL\obj\Debug\BLL.csproj.CopyComplete
+G:\net\PcBuild\BLL\obj\Debug\BLL.dll
+G:\net\PcBuild\BLL\obj\Debug\BLL.pdb

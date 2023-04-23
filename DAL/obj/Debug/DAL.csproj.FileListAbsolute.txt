@@ -1,0 +1,15 @@
+G:\net\PcBuild\DAL\bin\Debug\DAL.dll.config
+G:\net\PcBuild\DAL\bin\Debug\DAL.dll
+G:\net\PcBuild\DAL\bin\Debug\DAL.pdb
+G:\net\PcBuild\DAL\bin\Debug\EntityFramework.dll
+G:\net\PcBuild\DAL\bin\Debug\EntityFramework.SqlServer.dll
+G:\net\PcBuild\DAL\bin\Debug\EntityFramework.xml
+G:\net\PcBuild\DAL\bin\Debug\EntityFramework.SqlServer.xml
+G:\net\PcBuild\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\net\PcBuild\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\net\PcBuild\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\net\PcBuild\DAL\obj\Debug\DAL.dll
+G:\net\PcBuild\DAL\obj\Debug\DAL.pdb
+G:\net\PcBuild\DAL\obj\Debug\DAL.Migrations.InitSellerT.resources
+G:\net\PcBuild\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+G:\net\PcBuild\DAL\obj\Debug\DAL.Migrations.seedSellerData.resources
