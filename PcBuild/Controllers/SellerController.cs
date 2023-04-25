@@ -27,7 +27,7 @@ namespace PcBuild.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
             }
         }
-
+        
         [HttpGet]
         [Route("api/seller/{Sname}")]
         public HttpResponseMessage Sellers(string Sname)
@@ -43,7 +43,7 @@ namespace PcBuild.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
             }
         }
-
+        
         [HttpPost]
         [Route("api/seller/add")]
         public HttpResponseMessage Add(SellerDTO Sname)
