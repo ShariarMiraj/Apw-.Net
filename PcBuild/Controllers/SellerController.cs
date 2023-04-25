@@ -60,8 +60,8 @@ namespace PcBuild.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message, Data = Sname });
             }
         }
-
-        [HttpPost]
+        //not Update 
+        /*[HttpPost]
         [Route("api/seller/update")]
         public HttpResponseMessage Update(SellerDTO Sname)
         {
@@ -76,7 +76,7 @@ namespace PcBuild.Controllers
 
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message, Data = Sname });
             }
-        }
+        }*/
 
         [HttpPost]
         [Route("api/seller/delete/{Sname}")]
