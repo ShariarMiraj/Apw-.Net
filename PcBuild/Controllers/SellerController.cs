@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Services.Description;
 
 namespace PcBuild.Controllers
 {
@@ -50,13 +51,13 @@ namespace PcBuild.Controllers
             try
             {
                 var data = SellerService.Create(Sname);
-                return Request.CreateResponse(HttpStatusCode.OK, data );
+                return Request.CreateResponse(HttpStatusCode.OK,  data);
 
             }
             catch (Exception ex)
             {
 
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message, Data = Sname });
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message, Data = Sname });
             }
         }
 

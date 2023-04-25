@@ -13,3 +13,4 @@ G:\net\PcBuild\DAL\obj\Debug\DAL.pdb
 G:\net\PcBuild\DAL\obj\Debug\DAL.Migrations.InitSellerT.resources
 G:\net\PcBuild\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 G:\net\PcBuild\DAL\obj\Debug\DAL.Migrations.seedSellerData.resources
+G:\net\PcBuild\DAL\obj\Debug\DAL.Migrations.TokenDb.resources

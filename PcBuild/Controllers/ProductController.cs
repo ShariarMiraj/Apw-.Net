@@ -26,7 +26,7 @@ namespace PcBuild.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
             }   
         }
-        
+
         
         [HttpGet]
         [Route("api/products/{id}")]
@@ -43,7 +43,7 @@ namespace PcBuild.Controllers
                 return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message });
             }
         }
-
+        
         //product seller man find 
         [HttpGet]
         [Route("api/Product/{id}/seller")]
@@ -70,17 +70,17 @@ namespace PcBuild.Controllers
                 var res = ProductService.Create(obj);
                 if (res)
                 {
-                    return Request.CreateResponse(HttpStatusCode.OK, new { Msg = "Inserted", Data = obj });
+                    return Request.CreateResponse(HttpStatusCode.OK, new { Message = "Inserted", Data = obj });
                 }
                 else
                 {
-                    return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = "Not Inserted", Data = obj });
+                    return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = "Not Inserted", Data = obj });
                 }
             }
             catch (Exception ex)
             {
 
-                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message, Data = obj });
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Message = ex.Message, Data = obj });
             }
         }
 

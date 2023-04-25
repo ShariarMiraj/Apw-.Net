@@ -25,5 +25,15 @@ namespace DAL
         {
             return new OrderRepo();
         }
+
+        public static IAuth<bool> AuthData()
+        {
+            return new SellerRepo();
+        }
+        public static IRepo<Token,string,Token> TokenData()
+        {
+            return new TokenRepo();
+        
+        }
     }
 }

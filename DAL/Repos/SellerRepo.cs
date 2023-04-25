@@ -8,8 +8,17 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class SellerRepo : Repo, IRepo<Seller, string, Seller>
+    internal class SellerRepo : Repo, IRepo<Seller, string, Seller>, IAuth<bool>
     {
+        public bool Authenticate(string sname, string password)
+        {
+          var data=db.Sellers.FirstOrDefault(u=>u.Sname.Equals(sname) &&
+          u.Password.Equals(password));
+            if (data != null)
+                return true;
+            return false;
+        }
+
         public Seller Create(Seller obj)
         {
             db.Sellers.Add(obj);

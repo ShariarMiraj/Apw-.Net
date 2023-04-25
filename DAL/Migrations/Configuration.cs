@@ -19,7 +19,7 @@
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.
 
-            for (int i =1; i <=5; i++) 
+            /* for (int i =1; i <=5; i++) 
             {
                 context.Sellers.AddOrUpdate(new Models.Seller
                 {
@@ -58,7 +58,7 @@
                     SelleBy="Seller-" + random.Next(1,6),
                     ProductId=random.Next(1,11),
                 });
-            }
+            }*/
         }
     }
 }

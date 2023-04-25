@@ -51,7 +51,9 @@
     <Compile Include="DTOs\ProductDTO.cs" />
     <Compile Include="DTOs\ProductSellerDTO.cs" />
     <Compile Include="DTOs\SellerDTO.cs" />
+    <Compile Include="DTOs\TokenDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\AuthService.cs" />
     <Compile Include="Services\OrderService.cs" />
     <Compile Include="Services\ProductService.cs" />
     <Compile Include="Services\SellerService.cs" />
