@@ -76,3 +76,6 @@ G:\net\PcBuild\PcBuild\obj\Debug\PcBuild.csproj.CoreCompileInputs.cache
 G:\net\PcBuild\PcBuild\obj\Debug\PcBuild.csproj.CopyComplete
 G:\net\PcBuild\PcBuild\obj\Debug\PcBuild.dll
 G:\net\PcBuild\PcBuild\obj\Debug\PcBuild.pdb
+G:\net\PcBuild\PcBuild\bin\System.Web.Cors.dll
+G:\net\PcBuild\PcBuild\bin\System.Web.Http.Cors.dll
+G:\net\PcBuild\PcBuild\bin\System.Web.Http.Cors.xml

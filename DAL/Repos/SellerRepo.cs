@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class SellerRepo : Repo, IRepo<Seller, string, Seller>, IAuth<bool>
+    internal class SellerRepo : Repo, IRepo<Seller, string, Seller>, IAuth<bool> , IChange
     {
         public bool Authenticate(string sname, string password)
         {
@@ -51,6 +51,13 @@ namespace DAL.Repos
             if (db.SaveChanges() > 0 )
                 return Obj;
             return null;
+        }
+
+        public bool ChangePassword(string Sname, string password)
+        {
+            var seller= Read(Sname);
+            seller.Password = password;
+            return db.SaveChanges() > 0;
         }
     }
 }

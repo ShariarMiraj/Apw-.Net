@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="Interfaces\IAuth.cs" />
+    <Compile Include="Interfaces\IChange.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202304211149304_InitSellerT.cs" />
     <Compile Include="Migrations\202304211149304_InitSellerT.designer.cs">

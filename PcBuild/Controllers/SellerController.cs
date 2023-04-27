@@ -94,5 +94,28 @@ namespace PcBuild.Controllers
 
             }
         }
+
+        [HttpPost]
+        [Route("api/seller/change-password/{Sname}")]
+        public HttpResponseMessage ChangePassword(string Sname, ChangePasswordDTO changePass)
+        {
+            var seller = SellerService.Get(Sname);
+            if (seller != null)
+            {
+                try
+                {
+                    var res = SellerService.ChangePassword(Sname, changePass);
+                    return Request.CreateResponse(HttpStatusCode.OK, res);
+                }
+                catch (Exception ex)
+                {
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, ex.Message);
+                }
+            }
+            else
+            {
+                return Request.CreateResponse(HttpStatusCode.NotFound);
+            }
+        }
     }
 }
