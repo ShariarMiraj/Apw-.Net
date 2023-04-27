@@ -68,5 +68,16 @@ namespace BLL.Services
         {
             return DataAccessFactory.SellerData().Delete(Sname);
         }
+
+
+        public static bool ChangePassword(string Sname, ChangePasswordDTO changePasswordDTO)
+        {
+            var seller = DataAccessFactory.SellerData().Read(Sname);
+            if (changePasswordDTO.CurrentPassword == seller.Password)
+            {
+                return DataAccessFactory.ChangePassData().ChangePassword(seller.Sname, changePasswordDTO.Password);
+            }
+            return false;
+        }
     }
 }

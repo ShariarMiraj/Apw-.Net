@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DTOs\ChangePasswordDTO.cs" />
     <Compile Include="DTOs\OrderDTO.cs" />
     <Compile Include="DTOs\OrderProductDTO.cs" />
     <Compile Include="DTOs\ProductDTO.cs" />
